@@ -1,3 +1,67 @@
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+}
+
+body, html {
+    background-color: var(--beige);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
+    grid-auto-rows: 150px;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.cards {
+    background-color: var(--yellow);
+    color: var(--beige);
+    padding: 30px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+/* --------------------- */
+
 * {
-    display: block;
+    color: var(--red);
+}
+
+button {
+    color: var(--yellow);
+    border: 0;
+    padding: 15px;
+    background-color: var(--red);
+    font-weight: bold;
+    font-size: 18px;
 }
