@@ -12,6 +12,8 @@ body, html {
 .wrapper {
     width: 768px;
     margin: 0 auto;
+    height: 90vh;
+    padding: 0;
 }
 
 .nav {
