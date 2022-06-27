@@ -17,7 +17,18 @@ body, html {
 }
 
 .nav {
-    padding: 20 0;
+    padding: 0 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li > a {
+    padding: 15px;
+}
+
+li > a:hover {
+    text-decoration: underline;
+    background-color: #ffffff;
 }
 
 .nav > ul {
